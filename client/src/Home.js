@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 
 import b1 from "./img/img 1.png";
 import b2 from "./img/img 2.jpg";
@@ -7,11 +7,18 @@ import b3 from "./img/img 3.jpg";
 
 import videoFile from "./Video/video1.mp4";
 
-
-
-
 const Home = () => {
-    return (
+    const navigate = useNavigate();
+
+    const HandleSubmit = (e) => {
+        e.preventDefault();
+
+        alert("Redirecting to User Page");
+        navigate("/User");
+    };
+
+
+      return (
         <>
             <div className="color">
                 <div className="video-container">
@@ -20,13 +27,21 @@ const Home = () => {
                     </video>
                 </div>
 
-
                 {/* main page */}
                 <div className="home-content">
                     <h1>Feel The Beat Live</h1>
-                    <p>Agaso brings the night alive with bold sounds and electric vibes.</p>
-                    <button className="btn btn-primary">Book Now</button>
+                    <p>
+                        Agaso brings the night alive with bold sounds and electric vibes.
+                    </p>
+
+                    <button
+                        className="btn btn-primary"
+                        onClick={HandleSubmit}
+                    >
+                        Book Now
+                    </button>
                 </div>
+
 
                 <div className="home-content-1">
                     <h1>Meet agaso's vibe</h1>
@@ -152,7 +167,7 @@ const Home = () => {
                             <h2 class="logo">DJ Music</h2>
                             <p>
                                 Bringing beats, vibes, and unforgettable nights.<br></br>
-                                    Stay connected for latest events & mixes.
+                                Stay connected for latest events & mixes.
                             </p>
                         </div>
 
