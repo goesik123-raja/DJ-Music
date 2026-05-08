@@ -45,7 +45,7 @@ const Home = () => {
 
                 <div className="home-content-1">
                     <h1>Meet agaso's vibe</h1>
-                    <h3>Bold, electric, and alive—agaso brings the pulse of nightlife straight to your screen with<br></br>
+                    <h3>Bold, electric, and alive—agaso brings the pulse of nightlife straight to your screen with
                         neon beats and sharp visuals.</h3>
                     <p>150+
                         <br></br>
