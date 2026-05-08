@@ -144,6 +144,12 @@ body {
     margin-bottom: 50px;
 
 }
+.img-0 img{
+  width: 450px;
+  height: 450px;
+  margin-top: -600px;
+  margin-left: 1110px;
+}
 .img-1 img{
     width: 400px;
     height: 400px;
