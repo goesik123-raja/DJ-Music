@@ -346,3 +346,184 @@
     text-align: center;
   }
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media (max-width: 992px) {
+  .Music-1 {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .Music-1 h1 {
+    font-size: 60px;
+  }
+
+  .Music-1 p {
+    font-size: 18px;
+  }
+
+  .dj img,
+  .dj2 img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+  }
+
+  .Text,
+  .dj3 {
+    margin: 0;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  .Text h1,
+  .dj3 h1,
+  .email h1 {
+    font-size: 42px;
+    margin: 20px 0;
+  }
+
+  .Text h4,
+  .dj3 h4 {
+    font-size: 20px;
+    margin: 20px 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .email {
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+
+  .email-section {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .contact-left {
+    padding: 70px 30px;
+    text-align: center;
+  }
+
+  .contact-left h1 {
+    font-size: 55px;
+  }
+
+  .contact-left p {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .contact-right {
+    padding: 60px 20px;
+  }
+
+  .contact-right form {
+    width: 100%;
+  }
+
+  .contact-right button {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .Music-1 h1 {
+    font-size: 42px;
+  }
+
+  .Music-1 p {
+    font-size: 16px;
+  }
+
+  .dj img,
+  .dj2 img {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .Text h1,
+  .dj3 h1,
+  .email h1 {
+    font-size: 34px;
+  }
+
+  .Text h4,
+  .dj3 h4 {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .email p {
+    font-size: 16px;
+  }
+
+  .email-section {
+    width: 92%;
+    margin: 35px auto;
+  }
+
+  .email-section input {
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .email-section button {
+    width: 100%;
+    padding: 14px;
+  }
+
+  .contact-left {
+    padding: 50px 20px;
+  }
+
+  .contact-left h1 {
+    font-size: 40px;
+  }
+
+  .contact-left p {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .contact-right {
+    padding: 40px 15px;
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .contact-right button {
+    width: 100%;
+    padding: 14px;
+  }
+}

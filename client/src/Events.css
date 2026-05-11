@@ -230,3 +230,157 @@ p {
   font-size: 12px;
   margin-top: 40px;
 }
+
+
+
+
+
+
+/* Media query */
+/* Media Query */
+@media (max-width: 992px) {
+  .ticket-card img {
+    height: 220px;
+  }
+
+  .ticket-card .card-body {
+    padding: 25px;
+  }
+
+  .ticket-card h3 {
+    font-size: 24px;
+  }
+
+  .price {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .desc {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .info-box {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .book-title {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .book-sub {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .reserve-btn {
+    padding: 14px 50px;
+  }
+
+  .contact-section {
+    text-align: center;
+  }
+
+  .social-icons i {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Events {
+    padding: 30px 15px;
+  }
+
+  .ticket-card {
+    margin-bottom: 25px;
+  }
+
+  .ticket-card img {
+    height: 180px;
+  }
+
+  .ticket-card .card-body {
+    padding: 20px;
+  }
+
+  .ticket-card h3 {
+    font-size: 22px;
+  }
+
+  .ticket-card p {
+    font-size: 13px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .btn-custom {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .location-section {
+    padding: 50px 15px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .desc,
+  .info-box p {
+    font-size: 13px;
+  }
+
+  .map-box iframe {
+    height: 250px;
+  }
+
+  .book-now-section {
+    height: auto;
+    padding: 70px 15px;
+  }
+
+  .book-title {
+    font-size: 45px;
+  }
+
+  .book-sub {
+    font-size: 11px;
+  }
+
+  .reserve-btn {
+    width: 100%;
+    padding: 13px;
+  }
+
+  .contact-section {
+    padding: 50px 15px;
+  }
+
+  .contact-title {
+    font-size: 32px;
+  }
+
+  .email-box {
+    margin-bottom: 15px;
+  }
+
+  .send-btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .copyright {
+    margin-top: 25px;
+  }
+}
