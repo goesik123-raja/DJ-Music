@@ -1,174 +1,185 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 
 body {
-    background-color: #143faa;
-    font-family: Arial, sans-serif;
+  background-color: #143faa;
+  font-family: Arial, sans-serif;
 }
 
 /* Navbar Custom Styling (override bootstrap safely) */
 .navbar {
-    background: #98989895 ;
-    padding: 15px 30px;
+  background: #98989895;
+  padding: 15px 30px;
 }
 
 /* Logo */
 .navbar-brand {
-    font-size: 22px;
-    font-weight: bold;
-    color: aquamarine;
+  font-size: 22px;
+  font-weight: bold;
+  color: aquamarine;
 }
 
 /* Nav Links */
 .navbar-nav {
-    gap: 25px;
+  gap: 25px;
 }
 
 .nav-link {
-    color: whitesmoke;
-    font-size: 18px;
-    transition: 0.3s;
+  color: whitesmoke;
+  font-size: 18px;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
-    color: blue ;
+  color: blue;
 }
 
 /* Toggler (mobile) */
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 .video-container {
-    position: sticky;
-    height: 100vh;
-    overflow: hidden;
-    box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ffff;
-    transition: transform 0.3s ease;
-    border-radius: 15px;
-    margin-bottom: 150px;
+  position: sticky;
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ffff;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  margin-bottom: 150px;
 }
 
 .video {
-    position: sticky;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+  position: sticky;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .home-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
 }
 
 .home-content h1 {
-    font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: -150px;
+  font-size: 100px;
+  margin-bottom: 20px;
+  margin-top: -150px;
 }
 
 .home-content p {
-    font-size: 24px;
-    max-width: 600px;
+  font-size: 24px;
+  max-width: 600px;
 }
 
 .btn {
-    margin-right: 150px;
+  margin-right: 150px;
 }
 
 .home-content-1 {
-    margin-bottom: 190px;
-    color:pink;
+  margin-bottom: 190px;
+  color: pink;
 }
+
 .home-content-1 h1 {
-    font-size: 50px;
-    margin-left: 25px;
-    margin-top: -50px;
-    text-shadow: 0 0 10px #ff00ff, 0 0 10px #00ffff;
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: -50px;
+  text-shadow: 0 0 10px #ff00ff, 0 0 10px #00ffff;
 
 }
+
 .home-content-1 h3 {
-    font-size: 25px;
-    margin-left: 25px;
-    color: red;
-    margin-top: 20px;
-    width: 650px;
-    margin-bottom: 15px;
+  font-size: 25px;
+  margin-left: 25px;
+  color: red;
+  margin-top: 20px;
+  width: 650px;
+  margin-bottom: 15px;
 }
 
 .img {
-    margin-left: 950px;
-    margin-top: -577px;
-    margin-bottom: 250px;
+  margin-left: 950px;
+  margin-top: -577px;
+  margin-bottom: 250px;
 }
-.home-content-1 p{
-    font-size: 40px;
-    margin-left: 50px;
-    margin-top: 20px;
+
+.home-content-1 p {
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 20px;
 
 }
-.home-content-1 h4{
-    font-size: 20px;
-    font-size: 40px;
-    margin-left: 25px;
-    margin-top: -125px;
-    margin-right:650px;
-    text-align: center;
+
+.home-content-1 h4 {
+  font-size: 20px;
+  font-size: 40px;
+  margin-left: 25px;
+  margin-top: -125px;
+  margin-right: 650px;
+  text-align: center;
 }
-.color{
-    background-color: #111;
+
+.color {
+  background-color: #111;
 }
-.client{
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+
+.client {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
 }
-.client h1{
-    font-size: 50px;
-    margin-top: -50px;
+
+.client h1 {
+  font-size: 50px;
+  margin-top: -50px;
 }
-.client h3{
-    font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+
+.client h3 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 
 }
-.img-0 img{
+.img-0 img {
   width: 450px;
   height: 450px;
   margin-top: -600px;
-  margin-left: 680px;
+  margin-left: 770px;
 }
-.img-1 img{
-    width: 400px;
-    height: 400px;
-    border-radius: 15px;
-    box-shadow: 0 0 30px #ff00ff, 0 0 30px #00ffff;
-    margin-left: 452px;
-    margin-bottom: 450px;
+
+.img-1 img {
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px #ff00ff, 0 0 30px #00ffff;
+  margin-left: 452px;
+  margin-bottom: 450px;
 }
-.img-2 img{
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 30px #ff00ff, 0 0 30px #00ffff;
-    margin-left: 950px;
-    margin-top: -870px;
-    margin-bottom: 450px;
+
+.img-2 img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #ff00ff, 0 0 30px #00ffff;
+  margin-left: 950px;
+  margin-top: -870px;
+  margin-bottom: 450px;
 }
-.star-box{
+
+.star-box {
   width: 350px;
   height: 350px;
   background: #19e6a7;
@@ -177,46 +188,47 @@ body {
   padding: 40px 20px;
   margin-top: -550px;
   margin-left: 500px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   /*  MAIN MAGIC */
-  clip-path: polygon(
-    50% 0%,
-    60% 10%,
-    75% 5%,
-    80% 20%,
-    95% 25%,
-    85% 40%,
-    100% 50%,
-    85% 60%,
-    95% 75%,
-    80% 80%,
-    75% 95%,
-    50% 90%,
-    50% 100%,
-    40% 90%,
-    25% 95%,
-    20% 80%,
-    5% 75%,
-    15% 60%,
-    0% 50%,
-    15% 40%,
-    5% 25%,
-    20% 20%,
-    25% 5%,
-    40% 10%
-  );
+  clip-path: polygon(50% 0%,
+      60% 10%,
+      75% 5%,
+      80% 20%,
+      95% 25%,
+      85% 40%,
+      100% 50%,
+      85% 60%,
+      95% 75%,
+      80% 80%,
+      75% 95%,
+      50% 90%,
+      50% 100%,
+      40% 90%,
+      25% 95%,
+      20% 80%,
+      5% 75%,
+      15% 60%,
+      0% 50%,
+      15% 40%,
+      5% 25%,
+      20% 20%,
+      25% 5%,
+      40% 10%);
 }
-.star-box{
+
+.star-box {
   border: 5px solid black;
 }
-.star-box{
+
+.star-box {
   box-shadow: 0 0 20px #19e6a7;
 }
-.star-box2{
+
+.star-box2 {
   width: 350px;
   height: 350px;
   background: #19e6a7;
@@ -225,58 +237,61 @@ body {
   padding: 40px 20px;
   margin-top: -350px;
   margin-left: 990px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   /*  MAIN MAGIC */
-  clip-path: polygon(
-    50% 0%,
-    60% 10%,
-    75% 5%,
-    80% 20%,
-    95% 25%,
-    85% 40%,
-    100% 50%,
-    85% 60%,
-    95% 75%,
-    80% 80%,
-    75% 95%,
-    50% 90%,
-    50% 100%,
-    40% 90%,
-    25% 95%,
-    20% 80%,
-    5% 75%,
-    15% 60%,
-    0% 50%,
-    15% 40%,
-    5% 25%,
-    20% 20%,
-    25% 5%,
-    40% 10%
-  );
+  clip-path: polygon(50% 0%,
+      60% 10%,
+      75% 5%,
+      80% 20%,
+      95% 25%,
+      85% 40%,
+      100% 50%,
+      85% 60%,
+      95% 75%,
+      80% 80%,
+      75% 95%,
+      50% 90%,
+      50% 100%,
+      40% 90%,
+      25% 95%,
+      20% 80%,
+      5% 75%,
+      15% 60%,
+      0% 50%,
+      15% 40%,
+      5% 25%,
+      20% 20%,
+      25% 5%,
+      40% 10%);
 }
-.star-box2{
+
+.star-box2 {
   border: 5px solid black;
 }
-.star-box2{
+
+.star-box2 {
   box-shadow: 0 0 20px #19e6a7;
 }
-.register{
-    color: #fff;
-    margin-top: 100px;
-    text-align: center;
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+
+.register {
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
 }
-.register h1{
-    font-size: 50px;
-    margin-bottom: 20px;
+
+.register h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
-.register p{
-    font-size: 25px;
-    margin-bottom: 50px;
+
+.register p {
+  font-size: 25px;
+  margin-bottom: 50px;
 }
 
 
@@ -347,22 +362,26 @@ body {
   color: black;
   box-shadow: 0 0 15px #00ffc3;
 }
-.name-1 :hover{
-    color: purple;
+
+.name-1 :hover {
+  color: purple;
 }
-.vibe{
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0 10px #ff00ff, 0 0 10px #00ffff;
+
+.vibe {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #ff00ff, 0 0 10px #00ffff;
 }
-.vibe h1{
-    font-size: 50px;
-    margin-top: 80px;
+
+.vibe h1 {
+  font-size: 50px;
+  margin-top: 80px;
 }
-.vibe p{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+
+.vibe p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 
@@ -415,12 +434,10 @@ body {
   justify-content: center;
 
   /* smooth star */
-  clip-path: polygon(
-    50% 0%, 65% 8%, 80% 5%, 88% 18%, 100% 30%,
-    92% 45%, 100% 60%, 88% 75%, 80% 95%, 65% 92%,
-    50% 100%, 35% 92%, 20% 95%, 12% 75%, 0% 60%,
-    8% 45%, 0% 30%, 12% 18%, 20% 5%, 35% 8%
-  );
+  clip-path: polygon(50% 0%, 65% 8%, 80% 5%, 88% 18%, 100% 30%,
+      92% 45%, 100% 60%, 88% 75%, 80% 95%, 65% 92%,
+      50% 100%, 35% 92%, 20% 95%, 12% 75%, 0% 60%,
+      8% 45%, 0% 30%, 12% 18%, 20% 5%, 35% 8%);
 
   border-radius: 5px;
   box-shadow: 0 0 10px #e07acb;
@@ -468,6 +485,7 @@ body {
 .footer-box {
   flex: 1 1 250px;
 }
+
 .footer-box h2 {
   font-size: 80px;
   margin-bottom: 15px;
@@ -497,7 +515,7 @@ body {
 /* Social Icons */
 .social-icons {
   margin-top: 10px;
-  
+
 }
 
 .social-icons a {
@@ -530,7 +548,4 @@ body {
 
 
 
-  /* {Media query} */
-
-
-  
+/* {Media query} */

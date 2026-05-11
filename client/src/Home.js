@@ -18,7 +18,7 @@ const Home = () => {
     };
 
 
-      return (
+    return (
         <>
             <div className="color">
                 <div className="video-container">
