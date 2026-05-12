@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Navbar = () => {
   return (
@@ -18,7 +20,7 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="nav">
           <ul className="navbar-nav ms-auto">
-
+          
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
             </li>

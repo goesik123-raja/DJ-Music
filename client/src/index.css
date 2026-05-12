@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
 }
 
@@ -12,9 +12,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar Custom Styling (override bootstrap safely) */
+
 .navbar {
-  background: #98989895;
+  background: #000000;
   padding: 15px 30px;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-link {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   transition: 0.3s;
 }
@@ -44,6 +44,10 @@ body {
 .navbar-toggler {
   border: none;
 }
+#lik li{
+  color: #000;
+}
+
 
 .video-container {
   position: sticky;
