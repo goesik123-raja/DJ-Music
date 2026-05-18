@@ -158,43 +158,73 @@ const Home = () => {
                 </div>
 
 
-                {/* Footer */}
-                <footer class="dj-footer">
+
+                <br></br><br></br><br></br>
+
+        
+                {/* Footer Page */}
+
+
+                <footer class="footer">
                     <div class="footer-container">
 
-                        {/* <!-- Branding --> */}
-                        <div class="footer-box">
-                            <h2 class="logo">DJ Music</h2>
-                            <p>
-                                Bringing beats, vibes, and unforgettable nights.<br></br>
+                        {/* <!-- Left Section --> */}
+                        <div class="footer-col">
+                            <div class="footer-logo">DJ Music</div>
+                            <p class="footer-text">
+                                Bringing beats, vibes, and unforgettable nights.
                                 Stay connected for latest events & mixes.
                             </p>
-                        </div>
-
-                        {/* <!-- Contact --> */}
-                        <div class="footer-box">
-                            <h3>Contact</h3>
-                            <p><i class="fas fa-phone"></i> +91 98765 43210</p>
-                            <p><i class="fas fa-envelope"></i> djmusic@email.com</p>
-                            <p><i class="fas fa-map-marker-alt"></i> Tamil Nadu, India</p>
-                        </div>
-
-                        {/* <!-- Social Media --> */}
-                        <div class="footer-box">
-                            <h3>Follow Us</h3>
-                            <div class="social-icons">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            <h3 class="footer-title">Music Letter</h3>
+                            <div class="newsletter">
+                                <input type="email" placeholder="Your email address" />
+                                <button>Subscribe</button>
                             </div>
                         </div>
 
-                    </div>
+                        {/* <!-- My Account --> */}
+                        <div class="footer-col">
+                            <h3 class="footer-title">Social Media</h3>
+                            <ul class="footer-links">
+                                <li><a href=""><i class="fa-brands fa-instagram" /></a>Instagram</li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter" /></a>YouTube</li>
+                                <li><a href="#"><i class="fa-brands fa-spotify" /></a>Spotify</li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f" /></a>Facebook</li>
+                            </ul>
+                        </div>
 
-                    {/* <!-- Bottom --> */}
-                    <div class="footer-bottom">
-                        <p>© 2026 DJ Music | All Rights Reserved</p>
+                        {/* <!-- Information --> */}
+                        <div class="footer-col">
+                            <h3 class="footer-title">Information</h3>
+                            <ul class="footer-links">
+                                <li><a href="#"><i class="fa-solid fa-address-card"></i>About Us</a></li>
+                                <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Events</a></li>
+                                <li><a href="#"><i class="fa-solid fa-ticket"></i>Bookings</a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                            </ul>
+                        </div>
+
+                        {/* <!-- Contact --> */}
+                        <div class="footer-col">
+                            <h3 class="footer-title">Contact</h3>
+                            <div class="contact-item">
+                                <p><i class="fa-solid fa-location-dot"></i>
+                                    Madurai, Tamil Nadu
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                            </div>
+                            <div class="contact-item">
+                                <p><i class="fa-regular fa-envelope"></i>djmusic@email.com</p>
+                            </div>
+                            <div class="social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </footer>
             </div>
