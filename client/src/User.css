@@ -1,8 +1,10 @@
 
+
 .event-container {
-  background: #0b0b0b;
+  background-color: #000;
   padding: 30px 20px;
   display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   justify-content: center;
 }
 
@@ -17,7 +19,7 @@
 .event-form h2 {
   text-align: center;
   color: #ff4ecd;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 
 .event-form input,
@@ -30,11 +32,10 @@
   background: #000;
   color: white;
   border-radius: 8px;
-  /* outline: none; */
 }
 
 .event-form textarea {
-  height: 90px;
+  height: 50px;
 }
 
 .event-form button {
@@ -42,16 +43,14 @@
   padding: 12px;
   background: #910c6b;
   border: none;
-  color: white;
+  color: whitesmoke;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 120px;
 }
 
 .event-form button:hover {
-  background: #ff1bb3;
+  background: #5852;
 }
-
-
 
 
 

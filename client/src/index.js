@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import './Events.css';
 import './User.css';
+import './Data.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

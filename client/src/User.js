@@ -102,15 +102,13 @@ const User = () => {
           required
         />
 
-        <textarea
-          name="message"
-          placeholder="Additional Details..."
-          onChange={handleChange}
-        ></textarea>
+          <textarea
+            name="message"
+            placeholder="Additional Details..."
+            onChange={handleChange}
+          ></textarea>
 
-        <button type="submit">
-          SEND BOOKING
-        </button>
+        <button type="submit">SEND BOOKING</button>
 
       </form>
 

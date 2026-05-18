@@ -5,6 +5,7 @@ import Events from "./Events";
 import Navbar from "./Navbar";
 import User from "./User";
 import Music from "./Music";
+import Data from "./Data";
 import './index.css';
 
 import './Events.css';
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/Events" element={<Events />} />
                 <Route path="/User" element={<User />} />
                 <Route path="/Music" element={<Music />} />
+                <Route path="/Data" element={<Data/>} />
             </Routes>
 
         </BrowserRouter>
