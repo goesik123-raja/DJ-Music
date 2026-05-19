@@ -152,47 +152,70 @@ const Events = () => {
 
 
 
-            <section class="contact-section">
-                <div class="container">
+          
 
-                    <div class="row">
+                <footer class="footer">
+                    <div class="footer-container">
 
-                        {/* <!-- Left --> */}
-                        <div class="col-md-4">
-                            <h2 class="contact-title">Contact</h2>
-                            <p class="contact-text">HIT US UP FOR BOOKINGS AND COLLABS</p>
-
-                            <div class="social-icons mt-4">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-tiktok"></i>
-                                <i class="fab fa-x-twitter"></i>
+                        {/* <!-- Left Section --> */}
+                        <div class="footer-col">
+                            <div class="footer-logo">DJ Music</div>
+                            <p class="footer-text">
+                                Bringing beats, vibes, and unforgettable nights.
+                                Stay connected for latest events & mixes.
+                            </p>
+                            <h3 class="footer-title">Music Letter</h3>
+                            <div class="newsletter">
+                                <input type="email" placeholder="Your email address" />
+                                <button>Subscribe</button>
                             </div>
-
-                            <p class="copyright mt-5">© 2025. ALL RIGHTS RESERVED.</p>
                         </div>
 
-                        {/* <!-- Middle --> */}
-                        <div class="col-md-4">
-                            <h6>EMAIL</h6>
-                            <p>+1-555-AGASO99</p>
-                            <p>HELLO@AGASO.DJ</p>
+                        {/* <!-- My Account --> */}
+                        <div class="footer-col">
+                            <h3 class="footer-title">Social Media</h3>
+                            <ul class="footer-links">
+                                <li><a href=""><i class="fa-brands fa-instagram" /></a>Instagram</li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter" /></a>YouTube</li>
+                                <li><a href="#"><i class="fa-brands fa-spotify" /></a>Spotify</li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f" /></a>Facebook</li>
+                            </ul>
                         </div>
 
-                        {/* <!-- Right --> */}
-                        <div class="col-md-4">
-                            <h6>CALLING</h6>
-
-                            <label class="mb-2">YOUR EMAIL</label>
-                            <input type="text" placeholder="ENTER EMAIL" class="email-box" />
-
-                            <button class="send-btn mt-3">SEND</button>
+                        {/* <!-- Information --> */}
+                        <div class="footer-col">
+                            <h3 class="footer-title">Information</h3>
+                            <ul class="footer-links">
+                                <li><a href="#"><i class="fa-solid fa-address-card"></i>About Us</a></li>
+                                <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Events</a></li>
+                                <li><a href="#"><i class="fa-solid fa-ticket"></i>Bookings</a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                            </ul>
                         </div>
 
+                        {/* <!-- Contact --> */}
+                        <div class="footer-col">
+                            <h3 class="footer-title">Contact</h3>
+                            <div class="contact-item">
+                                <p><i class="fa-solid fa-location-dot"></i>
+                                    Madurai, Tamil Nadu
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                            </div>
+                            <div class="contact-item">
+                                <p><i class="fa-regular fa-envelope"></i>djmusic@email.com</p>
+                            </div>
+                            <div class="social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
                     </div>
-
-                </div>
-            </section>
+                </footer>
 
 
 

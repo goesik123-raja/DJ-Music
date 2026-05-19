@@ -244,7 +244,7 @@
 
 /* Footer Page */
 .footer {
-  background: black;
+  background: teal;
   padding: 50px 80px;
 }
 
@@ -258,18 +258,18 @@
 .footer-col {
   flex: 1;
   min-width: 220px;
-  color: whitesmoke;
+  color: black;
 }
 
 .footer-logo {
-  color: #00f2a9;
+  color:black;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 25px;
 }
 
 .footer-text {
-  color: whitesmoke;
+  color: black;
   line-height: 1.8;
   font-size: 16px;
   margin-bottom: 35px;
@@ -280,7 +280,7 @@
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #00f2a9;
+  color: black;
   text-transform: uppercase;
   padding-left: 0%;
 }
@@ -295,7 +295,7 @@
 
 .footer-links a i {
   margin-right: 10px;
-  color: #00f2a9;
+  color: black;
   transition: 0.3s;
 }
 
@@ -306,7 +306,7 @@
 
 .footer-links a {
   text-decoration: none;
-  color: whitesmoke;
+  color: black;
   font-size: 16px;
   transition: 0.3s;
 }
@@ -354,7 +354,7 @@
 .contact-item {
   display: flex;
   align-items: flex-start;
-  color: whitesmoke;
+  color: black;
 }
 
 .contact-item p i {

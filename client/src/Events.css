@@ -235,6 +235,162 @@ p {
 
 
 
+.footer {
+  background: lightblue;
+  padding: 50px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+  color: whitesmoke;
+}
+
+.footer-logo {
+  color: #00f2a9;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.footer-text {
+  color: whitesmoke;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 35px;
+  max-width: 320px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #00f2a9;
+  text-transform: uppercase;
+  padding-left: 0%;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a i {
+  margin-right: 10px;
+  color: #00f2a9;
+  transition: 0.3s;
+}
+
+.footer-links a:hover i {
+  color: #ff00ff;
+  transform: translateX(5px);
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.footer-links li a i {
+  color: #ff00ff;
+  padding: 5px;
+}
+
+.footer-links a:hover {
+  color: #00f2a9;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  margin-top: 15px;
+}
+
+.newsletter input {
+  padding: 14px;
+  width: 230px;
+  border: 1px solid #0100005a;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 15px;
+}
+
+.newsletter button {
+  background: #00f2a9;
+  color: whitesmoke;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 16px;
+  /* border-radius:0 4px px 0; */
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background: black;
+}
+
+/* Contact */
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  color: whitesmoke;
+}
+
+.contact-item p i {
+  padding: 5px;
+  margin-top: 5px;
+  color: #ff00ff;
+}
+
+/* Social */
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #00f2a9;
+  font-size: 23px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #7cc043;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media query */
 /* Media Query */
