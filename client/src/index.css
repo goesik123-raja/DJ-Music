@@ -44,7 +44,8 @@ body {
 .navbar-toggler {
   border: none;
 }
-#lik li{
+
+#lik li {
   color: #000;
 }
 
@@ -388,20 +389,6 @@ body {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -870,7 +857,7 @@ body {
 
 
 
-/* \ No newline at end of file */
+
 /* {Media query} */
 @media (max-width: 1200px) {
   .home-content h1 {

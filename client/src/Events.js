@@ -1,5 +1,15 @@
 import './Events.css';
 
+import g1 from "./img/img 7.png";
+import g2 from "./img/img 8.jpg";
+import g3 from "./img/img 9.jpg";
+
+
+
+
+
+
+
 const Events = () => {
     return (
 
@@ -11,7 +21,7 @@ const Events = () => {
                         {/* <!-- Card 1 --> */}
                         <div class="col-md-4">
                             <div class="ticket-card">
-                                <img src="https://picsum.photos/400/300?1" class="card-img-top" />
+                                <img src={g1} class="card-img-top" />
 
                                 <div class="card-body">
                                     <h3>Early Access</h3>
@@ -25,7 +35,7 @@ const Events = () => {
                         {/* <!-- Card 2 --> */}
                         <div class="col-md-4">
                             <div class="ticket-card">
-                                <img src="https://picsum.photos/400/300?2" class="card-img-top" />
+                                <img src={g2} class="card-img-top" />
 
                                 <div class="card-body">
                                     <h3>Standard Pass</h3>
@@ -39,7 +49,7 @@ const Events = () => {
                         {/* <!-- Card 3 --> */}
                         <div class="col-md-4">
                             <div class="ticket-card">
-                                <img src="https://picsum.photos/400/300?3" class="card-img-top" />
+                                <img src={g3} class="card-img-top" />
 
                                 <div class="card-body">
                                     <h3>VIP Experience</h3>
