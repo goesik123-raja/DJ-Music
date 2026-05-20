@@ -5,11 +5,6 @@ import g2 from "./img/img 8.jpg";
 import g3 from "./img/img 9.jpg";
 
 
-
-
-
-
-
 const Events = () => {
     return (
 
@@ -71,17 +66,6 @@ const Events = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
             <section class="location-section">
                 <div class="container">
 
@@ -124,23 +108,13 @@ const Events = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
             <section class="book-now-section d-flex align-items-center justify-content-center text-center">
 
                 <div>
                     <h1 class="book-title">Book Now</h1>
 
                     <p class="book-sub">
-                        SECURE YOUR SPOT AT THE HOTTEST EVENTS WITH AGASO’S EASY RESERVATION.
+                        SECURE YOUR SPOT AT THE HOTTEST EVENTS WITH AGASO'S EASY RESERVATION.
                     </p>
 
                     <button class="reserve-btn">RESERVE</button>
@@ -216,11 +190,6 @@ const Events = () => {
                     </div>
                 </div>
             </footer>
-
-
-
-
-
         </>
 
     )

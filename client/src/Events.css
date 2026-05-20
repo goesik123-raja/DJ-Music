@@ -113,9 +113,6 @@
 
 
 
-
-
-
 /* Full section center */
 .book-now-section {
   height: 80vh;
@@ -374,25 +371,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media query */
 /* Media Query */
 @media (max-width: 992px) {
   .ticket-card img {

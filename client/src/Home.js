@@ -5,6 +5,11 @@ import b1 from "./img/img 1.png";
 import b2 from "./img/img 2.jpg";
 import b3 from "./img/img 3.jpg";
 
+
+
+import j1 from "./img/img 10.jpeg";
+import j2 from "./img/img 11.jpeg";
+
 import videoFile from "./Video/video1.mp4";
 
 const Home = () => {
@@ -30,16 +35,11 @@ const Home = () => {
                 {/* main page */}
                 <div className="home-content">
                     <h1>Feel The Beat Live</h1>
-                    <p>
-                        Agaso brings the night alive with bold sounds and electric vibes.
-                    </p>
+                    <p> Agaso brings the night alive with bold sounds and electric vibes.</p>
 
                     <button
                         className="btn btn-primary"
-                        onClick={HandleSubmit}
-                    >
-                        Book Now
-                    </button>
+                        onClick={HandleSubmit} >Book Now</button>
                 </div>
 
 
@@ -131,7 +131,7 @@ const Home = () => {
                         </p>
 
                         <div className="profile">
-                            <img src="https://i.pravatar.cc/50" alt="" />
+                            <img src={j2} alt="" />
                             <div>
                                 <h4>DJ Luna</h4>
                                 <span>LA</span>
@@ -148,7 +148,7 @@ const Home = () => {
                         </p>
 
                         <div className="profile">
-                            <img src="https://i.pravatar.cc/50" alt="" />
+                            <img src={j1} alt="" />
                             <div>
                                 <h4>DJ Luna</h4>
                                 <span>LA</span>

@@ -81,12 +81,6 @@ const Music = () => {
 
 
 
-
-
-                {/* Footer */}
-
-
-
                 {/* Footer Page */}
                 <footer class="footer">
                     <div class="footer-container">
@@ -109,10 +103,10 @@ const Music = () => {
                         <div class="footer-col">
                             <h3 class="footer-title">Social Media</h3>
                             <ul class="footer-links">
-                                <li><a href=""><i class="fa-brands fa-instagram"/></a>Instagram</li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"/></a>YouTube</li>
-                                <li><a href="#"><i class="fa-brands fa-spotify"/></a>Spotify</li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"/></a>Facebook</li>
+                                <li><a href=""><i class="fa-brands fa-instagram" /></a>Instagram</li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter" /></a>YouTube</li>
+                                <li><a href="#"><i class="fa-brands fa-spotify" /></a>Spotify</li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f" /></a>Facebook</li>
                             </ul>
                         </div>
 
@@ -132,7 +126,7 @@ const Music = () => {
                             <h3 class="footer-title">Contact</h3>
                             <div class="contact-item">
                                 <p><i class="fa-solid fa-location-dot"></i>
-                                     Madurai, Tamil Nadu
+                                    Madurai, Tamil Nadu
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -155,12 +149,3 @@ const Music = () => {
     )
 }
 export default Music;
-
-
-
-
-
-
-
-
-

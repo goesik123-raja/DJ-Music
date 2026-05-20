@@ -392,18 +392,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*  container */
 .star-container {
   display: flex;
@@ -446,18 +434,6 @@ body {
 .profile img {
   border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-/* Footer */
-
 
 
 /* Footer Page */
@@ -853,12 +829,6 @@ body {
 }
 
 
-
-
-
-
-
-/* {Media query} */
 @media (max-width: 1200px) {
   .home-content h1 {
     font-size: 72px;

@@ -262,7 +262,7 @@
 }
 
 .footer-logo {
-  color:black;
+  color: black;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 25px;
@@ -382,29 +382,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =====================
-   MEDIA QUERY
-===================== */
-
-/* Tablet View */
+/* Media Query */
 @media (max-width: 992px) {
   .Music-1 h1 {
     font-size: 60px;

@@ -13,11 +13,10 @@ const Data = () => {
             const res = await axios.get("http://localhost:3000/event");
 
             setEvents(res.data);
-
+            
         } catch (err) {
 
             console.log(err);
-
         }
 
     };
@@ -73,10 +72,7 @@ const Data = () => {
 
                                 <button
                                     onClick={() => deleteData(item._id)}
-                                    className="delete-btn"
-                                >
-                                    Cancel Event
-                                </button>
+                                    className="delete-btn">Cancel Event</button>
 
                             </div>
                         ))

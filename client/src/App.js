@@ -21,7 +21,7 @@ function App() {
                 <Route path="/Events" element={<Events />} />
                 <Route path="/User" element={<User />} />
                 <Route path="/Music" element={<Music />} />
-                <Route path="/Data" element={<Data/>} />
+                <Route path="/Data" element={<Data />} />
             </Routes>
 
         </BrowserRouter>
